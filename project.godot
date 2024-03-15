@@ -22,7 +22,19 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 directories/dch_directory={}
 directories/dtl_directory={
-"prueba": "res://timeline/prueba.dtl"
+"empezar": "res://timeline/empezar.dtl",
+"moradoA": "res://timeline/pasilloMorado/moradoA.dtl",
+"moradoB": "res://timeline/pasilloMorado/moradoB.dtl",
+"moradoC": "res://timeline/pasilloMorado/moradoC.dtl",
+"pasilloMorado": "res://timeline/pasilloMorado/pasilloMorado.dtl",
+"pasilloRojo": "res://timeline/pasilloRojo/pasilloRojo.dtl",
+"pasilloVerde": "res://timeline/pasilloVerde/pasilloVerde.dtl",
+"rojoA": "res://timeline/pasilloRojo/rojoA.dtl",
+"rojoB": "res://timeline/pasilloRojo/rojoB.dtl",
+"rojoC": "res://timeline/pasilloRojo/rojoC.dtl",
+"verdeA": "res://timeline/pasilloVerde/verdeA.dtl",
+"verdeB": "res://timeline/pasilloVerde/verdeB.dtl",
+"verdeC": "res://timeline/pasilloVerde/verdeC.dtl"
 }
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
