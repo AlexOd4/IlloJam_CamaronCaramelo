@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Illo Jam Camaron Caramelo"
+run/main_scene="res://scenes/menu.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -20,8 +21,12 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
+directories/dch_directory={
+"illojuanBase": "res://styles/illojuanBase.dch",
+"verde_a": "res://styles/verde_a.dch"
+}
 directories/dtl_directory={
+"eleccionPasillo": "res://timeline/eleccionPasillo.dtl",
 "empezar": "res://timeline/empezar.dtl",
 "moradoA": "res://timeline/pasilloMorado/moradoA.dtl",
 "moradoB": "res://timeline/pasilloMorado/moradoB.dtl",
@@ -59,9 +64,17 @@ translation/save_mode=0
 translation/add_separator=false
 text/autopauses={}
 glossary/default_case_sensitive=true
-layout/style_list=[]
-layout/default_style="Default"
+layout/style_list=["res://styles/DefaultStyle.tres"]
+layout/default_style="res://styles/DefaultStyle.tres"
 variables={}
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep_width"
 
 [editor_plugins]
 

@@ -1,0 +1,7 @@
+¿cuál será el pasillo que Juan Alberto eliga?
+- pasillo Rojo
+	jump pasilloRojo/
+- pasillo Verde
+	jump pasilloVerde/
+- pasillo Morado
+ 	jump pasilloMorado/
