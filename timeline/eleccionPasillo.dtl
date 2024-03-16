@@ -1,7 +1,9 @@
-¿cuál será el pasillo que Juan Alberto eliga?
-- pasillo Rojo
+[background arg="res://img/bgs/negro.png" fade="0.0"]
+[background arg="res://img/bgs/bg_tresPuertas.png" fade="0.5"]
+¿Qué pasillo escogerás, Juan Alberto?
+- Pasillo Rojo
 	jump pasilloRojo/
-- pasillo Verde
+- Pasillo Verde
 	jump pasilloVerde/
-- pasillo Morado
- 	jump pasilloMorado/
+- Pasillo Morado
+	jump pasilloMorado/
