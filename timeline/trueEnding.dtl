@@ -1,37 +1,39 @@
-melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
-[sound path="sfx_Blackout.mp3" volume="0.0"]
+[background arg="res://img/bgs/negro.png" fade="0.0"]
+melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+[sound path="res://snd/sfx/sfx_Blackout.mp3" volume="0.0"]
+[background arg="res://img/bgs/bg_oficina.png" fade="0.0"]
 
 # #SFX Glitch
 
-LMDShow: Aló...
+Aló...
 
-LMDShow: Presidentes
+Presidentes
 
-LMDShow: Vaya vaya...
+Vaya vaya...
 
-LMDShow: Volvemos a encontrarnos
+Volvemos a encontrarnos
 
-LMDShow: No puedes escapar de mí
+No puedes escapar de mí
 
-LMDShow: De hecho, sigo siendo una parte de ti
+De hecho, sigo siendo una parte de ti
 
-LMDShow: Parece que Juan Alberto empieza a entender que está pasando
+Parece que Juan Alberto empieza a entender que está pasando
 
-LMDShow: El apagón ha afectado a nuestro sistema
+El apagón ha afectado a nuestro sistema
 
-LMDShow: Hay que conseguir que siga haciendo directos
+Hay que conseguir que siga haciendo directos
 
-LMDShow: Chavales...
+Chavales...
 
-LMDShow: ¿Qué le teneis que decir a Juan Alberto?
+¿Qué le teneis que decir a Juan Alberto?
 
 # Todos los NPCs dicen a la vez 
 
-Gente: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-Peña: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-pibes: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 [music path="res://snd/ost/trueending_final.mp3" fade="0.0" volume="0.0"]
 
 Reuniendo su fuerza de voluntad, Juan Alberto repitió “Camarón Caramelo” tantas veces como pudo
@@ -63,67 +65,67 @@ Cuando de pronto...
 
 Una voz familiar sonaba a lo lejos...
 
-Massi: Perdóname, Juan
+Perdóname, Juan
 
-Massi: Luz de mis entrañas, corazón, vida mía...
+Luz de mis entrañas, corazón, vida mía...
 
-Massi: Te tengo descuidao con tantos grupos de WhatsApp
+Te tengo descuidao con tantos grupos de WhatsApp
 
-Massi: Actuando en La Casa de Papel, lo de Operación Triunfo, doblando intros pa series de DayZ...
+Actuando en La Casa de Papel, lo de Operación Triunfo, doblando intros pa series de DayZ...
 
-Massi: De esas que te gustan a ti
+De esas que te gustan a ti
 
-Massi: Mira Juan, si despiertas...
+Mira Juan, si despiertas...
 
-TMassi: E DEJO QUE ME DESPEINES LAS CEJAS
+E DEJO QUE ME DESPEINES LAS CEJAS
 
 El cariño en sus palabras hizo despertar algo dentro de Juan Alberto
 
-Skippy: EH TÚ
+EH TÚ
 
-Skippy: PEDAZOU CABROUN COUME MIERDA
+PEDAZOU CABROUN COUME MIERDA
 
-Skippy: LE VAS A CHUPAR POLLA AL JUANITOU
+LE VAS A CHUPAR POLLA AL JUANITOU
 
-SpokSponha: Ompare, tienes que representar al barrio
+Ompare, tienes que representar al barrio
 
-SpokSponha: El orgullo malaguita
+El orgullo malaguita
 
-SpokSponha: ZOMOS LOZ DIOZEZ
+ZOMOS LOZ DIOZEZ
 
-Knekro: Venga Juanito, espabila coño
+Venga Juanito, espabila coño
 
-Knekro: QUE ME TIENES TILTEADO
+QUE ME TIENES TILTEADO
 
-Knekro: No te estuve haciendo de coach en Pokemon para esto
+No te estuve haciendo de coach en Pokemon para esto
 
-Knekro: No te rindas, cumple tu función
+No te rindas, cumple tu función
 
-JuanyMedio: Yo de esto no entiendo mucho
+Yo de esto no entiendo mucho
 
-JuanyMedio: Pero tú, Juan Alberto...
+Pero tú, Juan Alberto...
 
-JuanyMedio: Tú eres un grande
+Tú eres un grande
 
-JuanyMedio: Casi tan grande como yo
+Casi tan grande como yo
 
-Knekro: GOZ, GRANDE LOKETE
+GOZ, GRANDE LOKETE
 
-Anuj: Vives en Matrix
+Vives en Matrix
 
-Anuj: Toma la pildora roja
+Toma la pildora roja
 
-Amouranth: SMASH HIM
+SMASH HIM
 
-Alexelcapo: Haz algo con tu vida
+Haz algo con tu vida
 
-Alexelcapo: Ejercicio, empieza a caminar unos cuantos kilómetros
+Ejercicio, empieza a caminar unos cuantos kilómetros
 
-Alexelcapo: Toca hierba...
+Toca hierba...
 
-Alexelcapo: O fumátela conmigo en Amsterdam
+O fumátela conmigo en Amsterdam
 
-TODOS: ESTAMOS SIEMPRE CONTIGO JUAN ALBERTO
+ESTAMOS SIEMPRE CONTIGO JUAN ALBERTO
 
 No puede ser...
 
