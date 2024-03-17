@@ -8,50 +8,41 @@ Tenía una voz demasiado desgastada para su edad ceceando sin parar
 Su tono era amenazante, Juan Alberto se puso en guardia...
 join verde_c 1
 verde_c: K AsE eRmANO,?¿
-
 verde_c: tU K KIErE UnA PaTÂ En LA NuÊ?!?!
-
 verde_c: IRa MoNsTrO, MI NoMBrE ES KiKe MonTiLLA
-
 verde_c: Pa Lô NiÑoH uNA peZaDilla
-
 verde_c: PA Lâ niÑÂ UnA MaRAViLLA
-
 verde_c: ...
-
 verde_c: ZilENZIO OmPaRE
-
 verde_c: TabA JAZiEnDO Un ISTRiMin
-
 verde_c: Tu ZaBe FIFA, Er FornAI, To eZo
-
 verde_c: eNGa, Der TirÓN
-
 verde_c: ArA tenGo A UnViAJe De NiÑatÔ K zoLo kieReN ToRReNTe 3
-
 verde_c: NIÑOOO
-
 verde_c: nI TorRenTa TrÉ NI TorrentA ZeÍ
-
 verde_c: ZaCaRMe d'AkI PoR Mi MaRE
-
-verde_c: Me MetiA UnA PaMeRa de la KiKI enTRE PeXo y EspARda
-
+verde_c: Me MetiA UnA PaLMeRa de la KiKI enTRE PeXo y EspARda
 verde_c: O Un CamPEriTO WEnO WeNO Der MAFalDA
-
 verde_c: AzMe Er FaVo OmE, ZuSTiTuYEme
-
 verde_c: K Toy MaS AgobIaO kE uN ZeCrEtA en La PalMilla
-<<<<<<< Updated upstream
 set {trueEnding.verde_c} = true
-=======
 leave --All--
->>>>>>> Stashed changes
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se puso una gorrita para atrás, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
+	[clear music="true" time="0.5"]
+	[background arg="res://img/bgs/negro.png" fade="0.5"]
+	[wait time= "1"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
+	[background arg="res://img/bgs/negro.png" fade="0.75"]
+	Juan Alberto despertó de una pesadilla
+	Una anomalía en nuestro sistema # efecto letra glitch
+	Mañana, tocaba otro día de trabajo
+	Otro día, igual que el anterior...
+	[clear music="true" time="0.25"]
+	[wait time="0.75"]
+	jump eleccionPasillo/

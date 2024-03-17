@@ -8,12 +8,94 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "",
+"default_portrait": "happy",
 "description": "",
 "display_name": "JA-0880",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
-"portraits": {},
+"portraits": {
+"chino": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_chino.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_happy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"loco": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_loco.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"locoFuria": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_locoFuria.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"normal": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_normal.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_sad.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"serio": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_serio.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"serio2": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_serio2.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"serioTriste": {
+"export_overrides": {
+"image": "\"res://img/ch/rojo_c/rojo_c_serioTriste.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 "scale": 1.0
 }

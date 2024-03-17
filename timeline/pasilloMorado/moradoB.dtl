@@ -1,71 +1,51 @@
 [background fade="0.0"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
-
 Un chaval con camiseta friki estaba de pie delante del ordenador
-
 El negro de su ropa intentaba ocultar un evidente descuido hacia su autoimagen
-
 Y por el olor de su habitación, de su autohigiene
-
 Su voz mostraba hartazgo, y un poco de amargura
 join  1
-
 morado_b: …
-
 morado_b: Me quiero morir
-
 morado_b: Dios, no puedo más
-
 morado_b: Llevo tres dias seguidos viendo gameplays de Persona Ultimate Final Mix Deluxe Cut [i]Ahora-Sí-Que-Sí[/i] Definitive Edition
-
 morado_b: De verdad que no entiendo qué COÑO se fuman en Atlus
-
 morado_b: Es increíble, de verdad...
-
 morado_b: Editando el video para quitar un chat lleno de gilipolleces
-
 morado_b: [i]“Alex, deberías...”[/i]
-
 morado_b: [i]“NOMURA CABRÓN”[/i]
-
 morado_b: [i]“PI-PO PI-PO PI-PO”[/i]
-
 morado_b: [i]“Te veo regular, ¿te pasa algo?”[/i]
-
 morado_b: CLARO QUE LE PASA ALGO, PEDAZO DE INFRASER
-
 morado_b: ¿¿¿¡¡¡DE VERDAD TE CREES QUE VA A ENSEÑAR EL CHOCHO EN DIRECTO!!!???
-
 morado_b: Y NO, ROXASBLADE, ¡NO!
-
 morado_b: NO VA A JUGAR A LA ÚLTIMA PAJA MENTAL DE SQUARE ENIX
-
 morado_b: NI UN SOLO FINAL FANTASY BUENO HAN SACADO, NI UNO
-
 morado_b: BENDITO BRANDON SANDERSON
-
 morado_b: ...
-
 morado_b: No hice una carrera con recopilatorios de Alexelcapo para esto
-
 morado_b: ...
-
 morado_b: Quiero volver a los gameplays de Minecraft
-
 morado_b: Y a jugar al Divinity 2
-
 morado_b: Menos por las curas de la fimosis, fue una buena época
-
 Juan Alberto vió que el editor necesitaba un descanso
-
 Quizás, tocaba sustituirle
 set {trueEnding.morado_b} = true
-leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se pellizcó la camiseta, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
+	[clear music="true" time="0.25"]
+	[wait time="1" hide_text="true" ]
 	jump empezar/
 - melocamaroncaramelocamaroncara
+	[background arg="res://img/bgs/negro.png" fade="0.75"]
+	Juan Alberto despertó de una pesadilla
+	Una anomalía en nuestro sistema # efecto letra glitch
+	Mañana, tocaba otro día de trabajo
+	Otro día, igual que el anterior...
+	[clear music="true" time="0.25"]
+	[wait time="0.75"]
+	jump eleccionPasillo/

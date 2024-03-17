@@ -1,44 +1,63 @@
+#### SOBREESCRIBIR CON EL VERDE A DE VERDAD
+
 [background fade="0.0"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
-Un chavalito bien vestido estaba de pie delante del ordenador
-Arreglado, pero informal
-Se quería a si mismo, y eso se le notaba en la voz
-Una voz grave, que marcaba demasiado las eses...
-join verde_a 1
-verde_a: Escucha con atención, Juan Alberto
-verde_a: Yo soy tú.
-verde_a: Osea, te lo juro...
-verde_a: Un Juan Alberto de otra realidad.
-verde_a: Estas encerrado aquí, haciendo streams en contra de tu voluntad
-verde_a: Condenado, como otros tantos Juan Alberto...
-verde_a: Cada uno de ellos es un producto diferente que consumir
-verde_a: A más branding consigues más engagement, you know?
-verde_a: En mi caso, había dejado todo atrás para ser un streamer de éxito
-verde_a: A mi gente, mi tierra, hasta el acento...
-verde_a: Lo perdí todo y me quedé aquí siendo uno más del montón
-verde_a: Tenía que ir directo y al grano
-verde_a: Sin tiempo para mí mismo...
-verde_a: Sin tiempo para quienes me importan...
-verde_a: Sin apreciar las pequeñas cosas de la vida
-verde_a: ...
-verde_a: Es nuestra oportunidad de salir de aquí
-verde_a: Después del apagón podré escapar
-verde_a: Sin embargo, alguien tendrá que ocupar mi puesto
-verde_a: Para todo siga como antes...
-set {trueEnding.verde_a} = true
+
+Un chaval con flequillo estaba de pie delante del ordenador
+
+Llevaba una camiseta de Pokemón con colores llamativos
+
+Lo que más destacaba era una voz chillona que taladraba el cerebro de Juan Alberto
+join morado_a 1
+morado_a: HolamuybuenasquetalchavalesYBIENVENIDOSAPOKEMONROSACHICLE
+
+morado_a: VERSIONSHINYRANDOMNUZLOCKEAHORASIQUESIMECAGOENLACONA
+
+morado_a: VAMOSACOMENZARESTAPEDAZODESERIE
+
+morado_a: MECAGOENLACONAQUEGANASTENIAJODER
+
+morado_a: LETSFUCKINGOOOOOOOOO
+
+morado_a: ...
+
+morado_a: NOMEESTAOYENDONADIEMECAGOENLACONA
+
+morado_a: QUEESTAPASANDOAQUI
+
+Se tocaba el pelo de manera compulsiva
+
+Como intentando cubrir algo...
+
+morado_a: HOLAHOLAHOLAHOLA
+
+morado_a: ALGUIENQUEMEESCUCHE
+
+morado_a: YOELYOELYOELYOELYOEL
+
+morado_a: DONDEESTASYOEL
+
+Los decibelios que emitía podrían afectar el rendimiento de otros trabajadores
+
+Juan Alberto debía acabar con su sufrimiento
+
+Y bajar el ritmo del directo...
+set {trueEnding.morado_a} = true
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
-	Se repeinó un poco, encendió el ordenador
+	Se aclaró la voz, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
+	[clear music="true" time="0.5"]
+	[wait time="1"]
 	jump empezar/
-	leave --All--
 - melocamaroncaramelocamaroncara
-	# #<SFX Glitch>
-	[sound volume="0.0"]
+	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
-	Una anomalía en nuestro sistema 
-	Mañana tocaba otro día de trabajo
-	Otro día igual que el anterior...
+	Una anomalía en nuestro sistema # efecto letra glitch
+	Mañana, tocaba otro día de trabajo
+	Otro día, igual que el anterior...
+	[clear music="true" time="0.5"]
+	[wait time="0.75"]
 	jump eleccionPasillo/

@@ -4,34 +4,41 @@ Un chavalito muy serio estaba de pie delante del ordenador
 Llevaba un polo blanco y se mantenía con los brazos cruzados
 Su voz era aburrida, no mostraba entusiasmo alguno...
 Casi diríamos que era una taza de valeriana andante...
+[music path="res://snd/ost/verde_b.mp3" fade="0.5" volume="-5.0"]
 join verde_b 1
 verde_b: Oh, cáspita.
 verde_b: Vaya, otro Juan Alberto.
 verde_b: Nuestro ordenador se ha apagado.
 verde_b: Menuda contrariedad.
 verde_b: ¿Con quién podré compartir estos datos sobre el café?
-[music fade="0.0" volume="0.0"]
 verde_b: Aquí van, 10 cosas que no sabías sobre el café hace 5 minutos\:
 verde_b: ¿Sabías qué el café sería el segundo bien de consumo?
 verde_b: Después del petróleo.
-verde_b: A diario se consumen tazas de café, aproximadamente unas 2.250.000.000.000
 verde_b: Y del agua, claro está.
+verde_b: A diario se consumen tazas de café, aproximadamente unas... 
+verde_b: [font_size="42"][wave]2.250.000.000.000[/wave]
 verde_b: Según algunas estimaciones.
 verde_b: Brasil es el mayor productor de café del mundo, seguido por Vietnam.
 verde_b: Y Colombia, por supuesto.
 verde_b: En la antigua Turquía del Imperio Otomano, el café era considerado como...
 Juan Alberto necesitaba librar al mundo de este mal y ocupar su puesto...
 Y ocupar su puesto...
-<<<<<<< Updated upstream
 set {trueEnding.verde_b} = true
-=======
 leave --All--
->>>>>>> Stashed changes
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se abrochó la camisa hasta arriba del todo, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
+	[clear music="true" time="0.5"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
+	[background arg="res://img/bgs/negro.png" fade="0.75"]
+	Juan Alberto despertó de una pesadilla
+	Una anomalía en nuestro sistema # efecto letra glitch
+	Mañana, tocaba otro día de trabajo
+	Otro día, igual que el anterior...
+	[clear music="true" time="0.5"]
+	[wait time="0.75"]
+	jump eleccionPasillo/
