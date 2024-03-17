@@ -1,75 +1,55 @@
-# musica Check// Background // poses
+[background arg="res://img/bgs/bg_pasilloMorado.png" fade="0.0"]
+Detrás de la puerta, había un cubículo similar al de Juan Alberto
 
-[background arg="res://img/bg_cubiculo.jpg" fade="0.5"]
-Detrás de la puerta había un cubículo similar al de Juan Alberto
+Un chaval con flequillo estaba de pie delante del ordenador
 
-Un chaval a la última moda estaba de pie delante del ordenador
+Llevaba una camiseta de Pokemón con colores llamativos
 
-Por supuesto, con ropa de OG's
-[music path="res://snd/ost/rojo_c.mp3" fade="0.0" volume="-5.0"]
+Lo que más destacaba era una voz chillona que taladraba el cerebro de Juan Alberto
+[music path="res://snd/ost/morado_a.mp3" fade="0.5" volume="-12.0"]
+join morado_a 1
+morado_a: HolamuybuenasquetalchavalesYBIENVENIDOSAPOKEMONROSACHICLE
 
-Su aspecto andrógino parecía propia de un cantante coreano
+morado_a: VERSIONSHINYRANDOMNUZLOCKEAHORASIQUESIMECAGOENLACONA
 
-# OST The Book of Love – Instrumental <South Park>
-join rojo_c 1
+morado_a: VAMOSACOMENZARESTAPEDAZODESERIE
 
-rojo_c: Oh, otro Juan Alberto
+morado_a: MECAGOENLACONAQUEGANASTENIAJODER
 
-rojo_c: ...
+morado_a: LETSFUCKINGOOOOOOOOO
 
-rojo_c: Perdona, ¿has visto a Andrés?
+morado_a: ...
 
-rojo_c: Con este apagón me preocupa qué le puede haber pasado
+morado_a: NOMEESTAOYENDONADIEMECAGOENLACONA
 
-rojo_c: Le....
+morado_a: QUEESTAPASANDOAQUI
 
-rojo_c: Le quiero mucho
+Se tocaba el pelo de manera compulsiva
 
-rojo_c: ...
+Como intentando cubrir algo...
 
-rojo_c: No dejaría que nada malo le pasara
+morado_a (happyCalvo): HOLAHOLAHOLAHOLA
 
-rojo_c: No soy nadie si no le tengo a mi lado...
+morado_a: ALGUIENQUEMEESCUCHE
 
-rojo_c: ...
+morado_a: YOELYOELYOELYOELYOEL
 
-rojo_c: VENGA, TENEMOS QUE ENCONTRARLO
+morado_a: DONDEESTASYOEL
 
-rojo_c: Preguntemos a otros Juan Alberto en el edificio
+Los decibelios que emitía podrían afectar el rendimiento de otros trabajadores
 
-rojo_c: Solo hago estos streams para jugar con Andrés
+Juan Alberto debía acabar con su sufrimiento
 
-rojo_c: La última vez que hablamos le dije que no quería jugar al Baldur's Gate 3
-
-rojo_c: Que si era en cooperativo, que si es muy largo...
-
-rojo_c: Suena gracioso que diga eso cuando me he pasado el Red Dead Redemption 2 varias veces
-
-rojo_c: Se enfadó y empezó una nueva run del Crusader's King...
-
-rojo_c: Esta vez con el Imperio Romano
-
-rojo_c: Mi Imperio Romano...
-
-rojo_c: ...
-
-rojo_c: Juan Alberto...
-
-rojo_c: Ocupa mi lugar, debo ir en su busqueda
-
-rojo_c: Debo recordarle lo importante que es para mí
-
-Juan Alberto veía ternura en sus palabras
-
-Y supo que debía hacer lo correcto
-leave --All--
+Y bajar el ritmo del directo...
+leave morado_a
+set {trueEnding.morado_a} = true
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
-	Mientras su corazón se iba llenando de pasión, encendió el ordenador
+	Se aclaró la voz, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
 	[wait time="1.0"]
 	jump empezar/
@@ -79,6 +59,6 @@ leave --All--
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.25" step="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

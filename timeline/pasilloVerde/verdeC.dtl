@@ -1,77 +1,44 @@
 # musica Check// Background // poses
 
-[background arg="res://img/bg_cubiculo.jpg" fade="0.0"]
-Detrás de la puerta había un cubículo similar al de Juan Alberto
-
-Un chaval a la última moda estaba de pie delante del ordenador
-
-Por supuesto, con ropa de OG's
-[music path="res://snd/ost/rojo_c.mp3" fade="0.0" volume="-5.0"]
-
-Su aspecto andrógino parecía propia de un cantante coreano
-
-# OST The Book of Love – Instrumental <South Park>
-join rojo_c 1
-
-rojo_c: Oh, otro Juan Alberto
-
-rojo_c: ...
-
-rojo_c: Perdona, ¿has visto a Andrés?
-
-rojo_c: Con este apagón me preocupa qué le puede haber pasado
-
-rojo_c: Le....
-
-rojo_c: Le quiero mucho
-
-rojo_c: ...
-
-rojo_c: No dejaría que nada malo le pasara
-
-rojo_c: No soy nadie si no le tengo a mi lado...
-
-rojo_c: ...
-
-rojo_c: VENGA, TENEMOS QUE ENCONTRARLO
-
-rojo_c: Preguntemos a otros Juan Alberto en el edificio
-
-rojo_c: Solo hago estos streams para jugar con Andrés
-
-rojo_c: La última vez que hablamos le dije que no quería jugar al Baldur's Gate 3
-
-rojo_c: Que si era en cooperativo, que si es muy largo...
-
-rojo_c: Suena gracioso que diga eso cuando me he pasado el Red Dead Redemption 2 varias veces
-
-rojo_c: Se enfadó y empezó una nueva run del Crusader's King...
-
-rojo_c: Esta vez con el Imperio Romano
-
-rojo_c: Mi Imperio Romano...
-
-rojo_c: ...
-
-rojo_c: Juan Alberto...
-
-rojo_c: Ocupa mi lugar, debo ir en su busqueda
-
-rojo_c: Debo recordarle lo importante que es para mí
-
-Juan Alberto veía ternura en sus palabras
-
-Y supo que debía hacer lo correcto
+[background arg="res://img/bgs/bg_pasilloVerde.png" fade="0.0"]
+Detrás de la puerta, había un cubículo similar al de Juan Alberto
+Un chavalito con pinta de macarra estaba de pie delante del ordenador
+Llevaba una gorra, con una riñonera en su costado
+Su camiseta era una equipación de futbol con franjas azules y blancas
+En una mano llevaba Mosnter Magno Locum, en la otra un vaper que olía a vodka caramelo
+Tenía una voz demasiado desgastada para su edad ceceando sin parar
+Su tono era amenazante, Juan Alberto se puso en guardia...
+[music path="res://snd/ost/verde_c.mp3" fade="0.0" volume="-30.0"]
+join verde_c 1
+verde_c: K AsE eRmANO,?¿
+verde_c: tU K KIErE UnA PaTÂ En LA NuÊ?!?!
+verde_c: IRa MoNsTrO, MI NoMBrE ES KiKe MonTiLLA
+verde_c: Pa Lô NiÑoH uNA peZaDilla
+verde_c: PA Lâ niÑÂ UnA MaRAViLLA
+verde_c: ...
+verde_c: ZilENZIO OmPaRE
+verde_c: TabA JAZiEnDO Un ISTRiMin
+verde_c: Tu ZaBe FIFA, Er FornAI, To eZo
+verde_c: eNGa, Der TirÓN
+verde_c: ArA tenGo A UnViAJe De NiÑatÔ K zoLo kieReN ToRReNTe 3
+verde_c: NIÑOOO
+verde_c: nI TorRenTa TrÉ NI TorrentA ZeÍ
+verde_c: ZaCaRMe d'AkI PoR Mi MaRE
+verde_c: Me MetiA UnA PaLMeRa de la KiKI enTRE PeXo y EspARda
+verde_c: O Un CamPEriTO WEnO WeNO Der MAFalDA
+verde_c: AzMe Er FaVo OmE, ZuSTiTuYEme
+verde_c: K Toy MaS AgobIaO kE uN ZeCrEtA en La PalMilla
+set {trueEnding.verde_c} = true
 leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
-	Mientras su corazón se iba llenando de pasión, encendió el ordenador
+	Se puso una gorrita para atrás, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
-	[wait time="1.0"]
+	[wait time="2.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
