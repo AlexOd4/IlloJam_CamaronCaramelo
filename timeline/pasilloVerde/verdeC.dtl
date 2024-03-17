@@ -6,6 +6,7 @@ Su camiseta era una equipación de futbol con franjas azules y blancas
 En una mano llevaba Mosnter Magno Locum, en la otra un vaper que olía a vodka caramelo
 Tenía una voz demasiado desgastada para su edad ceceando sin parar
 Su tono era amenazante, Juan Alberto se puso en guardia...
+[music path="res://snd/ost/verde_c.mp3" fade="0.0" volume="-30.0"]
 join verde_c 1
 verde_c: K AsE eRmANO,?¿
 verde_c: tU K KIErE UnA PaTÂ En LA NuÊ?!?!
@@ -33,9 +34,9 @@ leave --All--
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear music="true" time="0.5"]
+	[clear time="0.5" text="false" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
-	[wait time= "1"]
+	[wait time="2.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
@@ -43,6 +44,6 @@ leave --All--
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear music="true" time="0.25"]
+	[clear time="0.25" step="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

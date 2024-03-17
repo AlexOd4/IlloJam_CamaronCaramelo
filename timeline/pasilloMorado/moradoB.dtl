@@ -37,8 +37,9 @@ set {trueEnding.morado_b} = true
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear music="true" time="0.25"]
-	[wait time="1" hide_text="true" ]
+	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
+	[background arg="res://img/bgs/negro.png" fade="0.5"]
+	[wait time="1.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
@@ -46,6 +47,6 @@ set {trueEnding.morado_b} = true
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear music="true" time="0.25"]
+	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/
