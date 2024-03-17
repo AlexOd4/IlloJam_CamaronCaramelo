@@ -26,6 +26,7 @@ verde_a: Es nuestra oportunidad de salir de aquí
 verde_a: Después del apagón podré escapar
 verde_a: Sin embargo, alguien tendrá que ocupar mi puesto
 verde_a: Para todo siga como antes...
+set {trueEnding.verde_a} = true
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se repeinó un poco...
