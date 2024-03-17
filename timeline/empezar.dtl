@@ -10,9 +10,9 @@ if {trueEnding.morado_a} == true:
 									jump trueEnding/
 [background arg="res://img/bgs/negro.png" fade="0.0"]
 Era un día como otro cualquiera en la vida de Juan Alberto
-[background arg="res://img/bgs/bg_oficina.png" fade="0.5"]
 Una vida estable, sin complicaciones
 Para algunos, podría considerarse un trabajo rutinario...
+[music path="res://snd/ost/morado_b.mp3" fade="1.0" volume="-8.0"]
 Sin embargo, aunque no trabajase tanto, también se merecía alguna pausa
 El ratito para el café de Juan Alberto no se lo quita nadie
 [music path="res://snd/sfx/sfx_coffeeMachine.mp3" fade="0.0" volume="0.0"]
@@ -24,7 +24,6 @@ Sus pupilas, dilatándose al ver el café goteando...
 [sound path="res://snd/sfx/sfx_Blackout.mp3" volume="0.0"]
 [background arg="res://img/bgs/negro.png" fade="0.0"]
 [shake]DE REPENTE[/shake]
-[music path="res://snd/ost/empezar.mp3" fade="0.0" volume="0.0"]
 La máquina dejó de funcionar...
 Un silencio sepulcral inundaba todo el edificio
 Parecía un apagón...

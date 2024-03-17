@@ -77,15 +77,15 @@ layout/style_list=["res://styles/DefaultStyle.tres"]
 layout/default_style="res://styles/DefaultStyle.tres"
 variables={
 "trueEnding": {
-"morado_a": false,
-"morado_b": false,
-"morado_c": false,
-"rojo_a": false,
-"rojo_b": false,
-"rojo_c": false,
-"verde_a": false,
-"verde_b": false,
-"verde_c": false
+"morado_a": true,
+"morado_b": true,
+"morado_c": true,
+"rojo_a": true,
+"rojo_b": true,
+"rojo_c": true,
+"verde_a": true,
+"verde_b": true,
+"verde_c": true
 }
 }
 

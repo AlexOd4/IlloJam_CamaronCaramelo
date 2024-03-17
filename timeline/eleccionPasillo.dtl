@@ -12,11 +12,8 @@ if {trueEnding.morado_a} == true:
 [background arg="res://img/bgs/bg_tresPuertas.png" fade="0.5"]
 ¿Qué pasillo escogerás, Juan Alberto?
 - Pasillo Rojo
-	[background arg="res://img/bgs/bg_pasilloRojo.png" fade="1.0"]
 	jump pasilloRojo/
 - Pasillo Verde
-	[background arg="res://img/bgs/bg_pasilloVerde.png" fade="1.0"]
 	jump pasilloVerde/
 - Pasillo Morado
-	[background arg="res://img/bgs/bg_pasilloMorado.png" fade="1.0"]
 	jump pasilloMorado/
