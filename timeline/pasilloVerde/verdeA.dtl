@@ -1,6 +1,5 @@
 # musica Check// Background // poses
-
-[background arg="res://img/bgs/bg_pasilloVerde.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto.
 
 Un chavalito bien vestido estaba de pie delante del ordenador, arreglado pero informal
@@ -52,16 +51,16 @@ verde_a: Después del apagón podré escapar
 
 verde_a: Sin embargo, alguien tendrá que ocupar mi puesto
 
-verde_a: Para que todo siga como antes...
-
 set {trueEnding.verde_a} = true
+leave --All-- 
+verde_a: Para que todo siga como antes...
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se repeinó un poco, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" text="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
 	[wait time="2.0"]
 	jump empezar/

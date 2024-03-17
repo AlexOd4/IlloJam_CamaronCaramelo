@@ -1,6 +1,5 @@
 # musica Check// Background // poses
-
-[background arg="res://img/bgs/bg_pasilloVerde.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
 Un chavalito muy serio estaba de pie delante del ordenador
 Llevaba un polo blanco y se mantenía con los brazos cruzados
@@ -24,8 +23,8 @@ verde_b: Brasil es el mayor productor de café del mundo, seguido por Vietnam.
 verde_b: Y Colombia, por supuesto.
 verde_b: En la antigua Turquía del Imperio Otomano, el café era considerado como...
 Juan Alberto necesitaba librar al mundo de este mal y ocupar su puesto...
-Y ocupar su puesto...
 set {trueEnding.verde_b} = true
+Y ocupar su puesto...
 leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad

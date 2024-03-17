@@ -1,74 +1,52 @@
-[background arg="res://img/bgs/bg_pasilloMorado.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 [music fade="0.0" volume="0.0"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto.
-
 Un chaval con pelo de punta estaba de pie delante del ordenador
-
 Su voz transmitía epicidad, propia de los grandes hombres de la historia
 [music path="res://snd/ost/morado_c.mp3" fade="0.5" volume="-16.0"]
 [background arg="res://img/bgs/grefg.png" fade="0.5"]
-
 morado_c: Queridos amigos...
-
 morado_c: Hoy es el primer día del resto de nuestras vidas
-
 morado_c: Por primera vez, hemos dejado de hacer stream
-
 morado_c: Aquí teneis el nuevo contador de este extensible
-
 morado_c: Cuando llegue a 0, vuelvo a hacer stream
-
 morado_c: LO NUNCA VISTO
-
 morado_c: CUENTA REGRESIVA
-
 morado_c: JAMÁS SE HA HECHO ALGO ASÍ
-
 morado_c: 1 SUB = 2 NANOSEGUNDOS
-
 morado_c: MOMENTO HISTÓRICO
-
 morado_c: QUE NO PAREN LAS SUSCRIPCIONES
-
 morado_c: NUMERITOS
-
 morado_c: NUMERITOOOS
-
 morado_c: NUMERITOOOOOS
-
 morado_c: SIEMPRE GANO
-
 morado_c: VAMOS CHAVALES
-
 morado_c: QUE LAS PROPIEDADES EN ANDORRA NO SE PAGAN SOLAS
-
 morado_c: VOY A COMPRAR ESTE EDIFICIO ENTERO
-
 morado_c: TODOS LOS JUAN ALBERTO SERAN MÍOS
-
 Presa de su propio ego, no prestaba atención a lo que había ocurrido en la oficina
-
 Juan Alberto necesitaba hacerle un favor al mercado inmobiliario
-
 Y okupar su espacio...
 set {trueEnding.morado_c} = true
-[background fade="0.0"]
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se puso gomina en el pelo, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
+	Una anomalía en nuestro sistema
+	Mañana, tocaba otro día de trabajo
+	Otro día, igual que el anterior...
 	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
-	[background arg="res://img/bgs/negro.png" fade="0.5"]
-	[wait time="1.0"]
-	jump empezar/
+	[background arg="res://img/bgs/negro.png" fade="0.75"]
+	[wait time="0.75"]
+	jump eleccionPasillo/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" background="false" positions="false" style="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

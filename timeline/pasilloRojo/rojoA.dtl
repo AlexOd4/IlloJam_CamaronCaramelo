@@ -1,4 +1,4 @@
-[background arg="res://img/bgs/bg_pasilloRojo.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto
 
 Un chaval con un sombrero hortera estaba de pie delante del ordenador
@@ -8,7 +8,7 @@ Su barba del cuello estaba descuidada
 Paquetes de Doritos y botellas de Mountain Dews inundaban la habitación
 
 Juan Alberto intentó esquivar la basura que se amontonaba por el suelo...
-[music path="res://snd/ost/rojo_a.mp3" fade="0.5" volume="0.0"]
+[music path="res://snd/ost/rojo_a.mp3" fade="0.5" volume="-8.0"]
 join rojo_a (negro) 1 [ mirrored="true"]
 
 rojo_a: La virgen, mira que hora es
@@ -41,7 +41,7 @@ rojo_a: Vamo, no creo que hubiese conocio a ninguna chavalita
 
 rojo_a: Tampoco tengo subida la stat de hablar con mujeres...
 
-rojo_a; Me quedé en casa metiéndole mods al Skyrim
+rojo_a: Me quedé en casa metiéndole mods al Skyrim
 
 rojo_a: He instalao un mod to guapardo con voces de Chiquito
 
@@ -60,11 +60,11 @@ rojo_a: QUE HOY HABÍA PROMOCIÓN DEL DONIMO'S PIZZA
 rojo_a: BOOOOFFF
 
 rojo_a: ESPERAQUEMECAGOMECAGOMECAGO
-
-Mientras que este Juan Alberto iba al baño...
-
-Alguien tenia que ocupar el hueco que ha dejado
 leave --All--
+Mientras que este Juan Alberto iba al baño...
+set {trueEnding.rojo_a} = true
+[save slot="0"]
+Alguien tenia que ocupar el hueco que ha dejado
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se puso una fedora, encendió el ordenador

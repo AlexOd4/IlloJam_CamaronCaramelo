@@ -1,6 +1,5 @@
 # musica Check// Background // poses
-
-[background arg="res://img/bgs/bg_pasilloVerde.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
 Un chavalito con pinta de macarra estaba de pie delante del ordenador
 Llevaba una gorra, con una riñonera en su costado
@@ -27,8 +26,8 @@ verde_c: ZaCaRMe d'AkI PoR Mi MaRE
 verde_c: Me MetiA UnA PaLMeRa de la KiKI enTRE PeXo y EspARda
 verde_c: O Un CamPEriTO WEnO WeNO Der MAFalDA
 verde_c: AzMe Er FaVo OmE, ZuSTiTuYEme
-verde_c: K Toy MaS AgobIaO kE uN ZeCrEtA en La PalMilla
 set {trueEnding.verde_c} = true
+verde_c: K Toy MaS AgobIaO kE uN ZeCrEtA en La PalMilla
 leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad

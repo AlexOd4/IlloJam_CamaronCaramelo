@@ -1,6 +1,5 @@
 # musica Check// Background // poses
-
-[background arg="res://img/bgs/bg_pasilloRojo.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto
 
 Un chaval a la última moda estaba de pie delante del ordenador
@@ -60,7 +59,7 @@ rojo_c: Ocupa mi lugar, debo ir en su busqueda
 rojo_c: Debo recordarle lo importante que es para mí
 
 Juan Alberto veía ternura en sus palabras
-
+set {trueEnding.rojo_c} = true
 Y supo que debía hacer lo correcto
 leave --All--
 - Este soy yo

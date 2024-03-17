@@ -1,4 +1,4 @@
-[background arg="res://img/bgs/bg_pasilloMorado.png" fade="0.0"]
+[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
 Un chaval con camiseta friki estaba de pie delante del ordenador
 El negro de su ropa intentaba ocultar un evidente descuido hacia su autoimagen
@@ -30,15 +30,17 @@ morado_b: Quiero volver a los gameplays de Minecraft
 morado_b: Y a jugar al Divinity 2
 morado_b: Menos por las curas de la fimosis, fue una buena época
 Juan Alberto vió que el editor necesitaba un descanso
-Quizás, tocaba sustituirle
 set {trueEnding.morado_b} = true
+[save slot="0"]
+Quizás, tocaba sustituirle
+leave --All-- 
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se pellizcó la camiseta, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
 	[wait time="1.0"]
 	jump empezar/
@@ -48,6 +50,6 @@ set {trueEnding.morado_b} = true
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" background="false" positions="false" style="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/
