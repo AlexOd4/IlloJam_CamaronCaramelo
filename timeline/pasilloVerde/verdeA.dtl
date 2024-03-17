@@ -1,56 +1,65 @@
-#### SOBREESCRIBIR CON EL VERDE A DE VERDAD
-
 [background fade="0.0"]
-Detrás de la puerta, había un cubículo similar al de Juan Alberto
+Detrás de la puerta, había un cubículo similar al de Juan Alberto.
 
-Un chaval con flequillo estaba de pie delante del ordenador
+Un chavalito bien vestido estaba de pie delante del ordenador, arreglado pero informal
 
-Llevaba una camiseta de Pokemón con colores llamativos
+Se quería a sí mismo, y eso se le notaba en la voz
 
-Lo que más destacaba era una voz chillona que taladraba el cerebro de Juan Alberto
-join morado_a 1
-morado_a: HolamuybuenasquetalchavalesYBIENVENIDOSAPOKEMONROSACHICLE
+Una voz grave que marcaba demasiado las eses...
 
-morado_a: VERSIONSHINYRANDOMNUZLOCKEAHORASIQUESIMECAGOENLACONA
+join verde_a 1
 
-morado_a: VAMOSACOMENZARESTAPEDAZODESERIE
+verde_a: Escucha con atención, Juan Alberto
 
-morado_a: MECAGOENLACONAQUEGANASTENIAJODER
+verde_a: Yo soy tú
 
-morado_a: LETSFUCKINGOOOOOOOOO
+verde_a: Osea, te lo juro...
 
-morado_a: ...
+verde_a: Un Juan Alberto de otra realidad
 
-morado_a: NOMEESTAOYENDONADIEMECAGOENLACONA
+verde_a: Estás encerrado aquí, haciendo streams en contra de tu voluntad
 
-morado_a: QUEESTAPASANDOAQUI
+verde_a: Condenado, como otros tantos Juan Alberto...
 
-Se tocaba el pelo de manera compulsiva
+verde_a: Cada uno de ellos, es un producto diferente que consumir
 
-Como intentando cubrir algo...
+verde_a: A más branding consigues más engagement, you know?
 
-morado_a: HOLAHOLAHOLAHOLA
+verde_a: En mi caso, había dejado todo atrás para ser un streamer de exito
 
-morado_a: ALGUIENQUEMEESCUCHE
+verde_a: A mi gente, mi tierra...
 
-morado_a: YOELYOELYOELYOELYOEL
+verde_a: Perdí el acento, lo perdí todo...
 
-morado_a: DONDEESTASYOEL
+verde_a: Y me quedé aquí siendo uno del montón
 
-Los decibelios que emitía podrían afectar el rendimiento de otros trabajadores
+verde_a: Tenía que ir directo y al grano
 
-Juan Alberto debía acabar con su sufrimiento
+verde_a: Sin tiempo para mi mismo...
 
-Y bajar el ritmo del directo...
+verde_a: Sin tiempo para quienes me importan...
+
+verde_a: Sin apreciar las pequeñas cosas de la vida
+
+verde_a: ...
+
+verde_a: Es nuestra oportunidad de salir de aquí
+
+verde_a: Después del apagón podré escapar
+
+verde_a: Sin embargo, alguien tendrá que ocupar mi puesto
+
+verde_a: Para que todo siga como antes...
+
 set {trueEnding.morado_a} = true
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
-	Se aclaró la voz, encendió el ordenador
+	Se repeinó un poco, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear music="true" time="0.5"]
-	[wait time="1"]
+	[clear time="0.5"]
+	[wait time="1.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
@@ -58,6 +67,6 @@ set {trueEnding.morado_a} = true
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear music="true" time="0.5"]
+	[clear time="0.5"]
 	[wait time="0.75"]
 	jump eleccionPasillo/
