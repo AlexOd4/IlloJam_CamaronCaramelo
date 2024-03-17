@@ -1,5 +1,13 @@
-if {trueEnding.morado_a && trueEnding.morado_b && trueEnding.morado_c && trueEnding.verde_a && trueEnding.verde_b && trueEnding.verde_c && trueEnding.rojo_a && trueEnding.rojo_b && trueEnding.rojo_c}   ==   true:
-	jump trueEnding/
+if {trueEnding.morado_a} == true:
+	if {trueEnding.morado_b} == true:
+		if {trueEnding.morado_c} == true:
+			if {trueEnding.rojo_a} == true:
+				if {trueEnding.rojo_b} == true:
+					if {trueEnding.rojo_c} == true:
+						if {trueEnding.verde_a} == true:
+							if {trueEnding.verde_b} == true:
+								if {trueEnding.verde_c} == true:
+									jump trueEnding/
 [background arg="res://img/bgs/negro.png" fade="0.0"]
 Era un día como otro cualquiera en la vida de Juan Alberto
 Una vida estable, sin complicaciones
@@ -24,4 +32,3 @@ Juan Alberto nunca se había aventurado más allá de este departamento.
 Ni siquiera conocía a sus otros compañeros de trabajo...
 [signal arg="buttonVisible"]
 jump eleccionPasillo/
-set {trueEnding.morado_c} = true
