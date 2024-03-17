@@ -1,3 +1,5 @@
+# musica Check// Background // poses
+
 [background fade="0.0"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto.
 
@@ -6,6 +8,7 @@ Un chavalito bien vestido estaba de pie delante del ordenador, arreglado pero in
 Se quería a sí mismo, y eso se le notaba en la voz
 
 Una voz grave que marcaba demasiado las eses...
+[music path="res://snd/ost/verde_a.mp3" fade="0.0" volume="-5.0"]
 
 join verde_a 1
 
@@ -51,15 +54,16 @@ verde_a: Sin embargo, alguien tendrá que ocupar mi puesto
 
 verde_a: Para que todo siga como antes...
 
-set {trueEnding.morado_a} = true
+set {trueEnding.verde_a} = true
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se repeinó un poco, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5"]
-	[wait time="1.0"]
+	[clear time="0.5" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	[background arg="res://img/bgs/negro.png" fade="0.5"]
+	[wait time="2.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
@@ -67,6 +71,6 @@ set {trueEnding.morado_a} = true
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.5"]
+	[clear time="0.5" step="false" background="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

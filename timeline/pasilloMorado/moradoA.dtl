@@ -59,6 +59,6 @@ set {trueEnding.morado_a} = true
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

@@ -45,6 +45,7 @@ directories/dtl_directory={
 "rojoA": "res://timeline/pasilloRojo/rojoA.dtl",
 "rojoB": "res://timeline/pasilloRojo/rojoB.dtl",
 "rojoC": "res://timeline/pasilloRojo/rojoC.dtl",
+"trueEnding": "res://timeline/trueEnding.dtl",
 "verdeA": "res://timeline/pasilloVerde/verdeA.dtl",
 "verdeB": "res://timeline/pasilloVerde/verdeB.dtl",
 "verdeC": "res://timeline/pasilloVerde/verdeC.dtl"

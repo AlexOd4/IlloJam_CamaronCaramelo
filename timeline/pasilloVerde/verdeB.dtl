@@ -1,3 +1,5 @@
+# musica Check// Background // poses
+
 [background fade="0.0"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
 Un chavalito muy serio estaba de pie delante del ordenador
@@ -15,7 +17,7 @@ verde_b: Aquí van, 10 cosas que no sabías sobre el café hace 5 minutos\:
 verde_b: ¿Sabías qué el café sería el segundo bien de consumo?
 verde_b: Después del petróleo.
 verde_b: Y del agua, claro está.
-verde_b: A diario se consumen tazas de café, aproximadamente unas... 
+verde_b: A diario se consumen tazas de café, aproximadamente unas...
 verde_b: [font_size="42"][wave]2.250.000.000.000[/wave]
 verde_b: Según algunas estimaciones.
 verde_b: Brasil es el mayor productor de café del mundo, seguido por Vietnam.
@@ -31,7 +33,7 @@ leave --All--
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
 	[wait time="1.0"]
 	jump empezar/
@@ -41,6 +43,6 @@ leave --All--
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear music="true" time="0.5"]
+	[clear time="0.5" step="false" background="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

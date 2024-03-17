@@ -1,14 +1,16 @@
+# musica Check// Background // poses
+
 [background fade="0.0"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto
 
 Un chaval a la última moda estaba de pie delante del ordenador
 
 Por supuesto, con ropa de OG's
+[music path="res://snd/ost/rojo_c.mp3" fade="0.0" volume="-5.0"]
 
 Su aspecto andrógino parecía propia de un cantante coreano
 
 # OST The Book of Love – Instrumental <South Park>
-[music fade="0.0" volume="0.0"]
 join rojo_c 1
 
 rojo_c: Oh, otro Juan Alberto
@@ -67,8 +69,16 @@ leave --All--
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
 	[wait time="1.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
+	[background arg="res://img/bgs/negro.png" fade="0.75"]
+	Juan Alberto despertó de una pesadilla
+	Una anomalía en nuestro sistema # efecto letra glitch
+	Mañana, tocaba otro día de trabajo
+	Otro día, igual que el anterior...
+	[clear time="0.25" step="false"]
+	[wait time="0.75"]
+	jump eleccionPasillo/

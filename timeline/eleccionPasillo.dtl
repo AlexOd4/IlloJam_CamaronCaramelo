@@ -1,3 +1,5 @@
+if {trueEnding.morado_a && trueEnding.morado_b && trueEnding.morado_c && trueEnding.verde_a && trueEnding.verde_b && trueEnding.verde_c && trueEnding.rojo_a && trueEnding.rojo_b && trueEnding.rojo_c}   ==   true:
+	jump trueEnding/
 [background arg="res://img/bgs/negro.png" fade="0.0"]
 [background arg="res://img/bgs/bg_tresPuertas.png" fade="0.5"]
 ¿Qué pasillo escogerás, Juan Alberto?

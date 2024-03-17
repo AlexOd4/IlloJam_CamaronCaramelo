@@ -4,8 +4,8 @@ Detrás de la puerta había un cubículo similar al de Juan Alberto.
 Un chaval con pelo de punta estaba de pie delante del ordenador
 
 Su voz transmitía epicidad, propia de los grandes hombres de la historia
-[music fade="0.0" volume="0.0"]
-[background arg="res://img/bgs/grefg.png" fade="0.0"]
+[music path="res://snd/ost/morado_c.mp3" fade="0.5" volume="-16.0"]
+[background arg="res://img/bgs/grefg.png" fade="0.5"]
 
 morado_c: Queridos amigos...
 
@@ -50,6 +50,7 @@ Presa de su propio ego, no prestaba atención a lo que había ocurrido en la ofi
 Juan Alberto necesitaba hacerle un favor al mercado inmobiliario
 
 Y okupar su espacio...
+set {trueEnding.morado_c} = true
 [background fade="0.0"]
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
@@ -57,7 +58,7 @@ Y okupar su espacio...
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
 	[wait time="1.0"]
 	jump empezar/
@@ -67,6 +68,6 @@ Y okupar su espacio...
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.5" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/
