@@ -1,69 +1,77 @@
 # musica Check// Background // poses
 
-[background arg="res://img/bgs/bg_pasilloVerde.png" fade="0.0"]
-Detrás de la puerta, había un cubículo similar al de Juan Alberto.
+[background arg="res://img/bg_cubiculo.jpg" fade="0.0"]
+Detrás de la puerta había un cubículo similar al de Juan Alberto
 
-Un chavalito bien vestido estaba de pie delante del ordenador, arreglado pero informal
+Un chaval a la última moda estaba de pie delante del ordenador
 
-Se quería a sí mismo, y eso se le notaba en la voz
+Por supuesto, con ropa de OG's
+[music path="res://snd/ost/rojo_c.mp3" fade="0.0" volume="-5.0"]
 
-Una voz grave que marcaba demasiado las eses...
-[music path="res://snd/ost/verde_a.mp3" fade="0.0" volume="-5.0"]
+Su aspecto andrógino parecía propia de un cantante coreano
 
-join verde_a 1
+# OST The Book of Love – Instrumental <South Park>
+join rojo_c 1
 
-verde_a: Escucha con atención, Juan Alberto
+rojo_c: Oh, otro Juan Alberto
 
-verde_a: Yo soy tú
+rojo_c: ...
 
-verde_a: Osea, te lo juro...
+rojo_c: Perdona, ¿has visto a Andrés?
 
-verde_a: Un Juan Alberto de otra realidad
+rojo_c: Con este apagón me preocupa qué le puede haber pasado
 
-verde_a: Estás encerrado aquí, haciendo streams en contra de tu voluntad
+rojo_c: Le....
 
-verde_a: Condenado, como otros tantos Juan Alberto...
+rojo_c: Le quiero mucho
 
-verde_a: Cada uno de ellos, es un producto diferente que consumir
+rojo_c: ...
 
-verde_a: A más branding consigues más engagement, you know?
+rojo_c: No dejaría que nada malo le pasara
 
-verde_a: En mi caso, había dejado todo atrás para ser un streamer de exito
+rojo_c: No soy nadie si no le tengo a mi lado...
 
-verde_a: A mi gente, mi tierra...
+rojo_c: ...
 
-verde_a: Perdí el acento, lo perdí todo...
+rojo_c: VENGA, TENEMOS QUE ENCONTRARLO
 
-verde_a: Y me quedé aquí siendo uno del montón
+rojo_c: Preguntemos a otros Juan Alberto en el edificio
 
-verde_a: Tenía que ir directo y al grano
+rojo_c: Solo hago estos streams para jugar con Andrés
 
-verde_a: Sin tiempo para mi mismo...
+rojo_c: La última vez que hablamos le dije que no quería jugar al Baldur's Gate 3
 
-verde_a: Sin tiempo para quienes me importan...
+rojo_c: Que si era en cooperativo, que si es muy largo...
 
-verde_a: Sin apreciar las pequeñas cosas de la vida
+rojo_c: Suena gracioso que diga eso cuando me he pasado el Red Dead Redemption 2 varias veces
 
-verde_a: ...
+rojo_c: Se enfadó y empezó una nueva run del Crusader's King...
 
-verde_a: Es nuestra oportunidad de salir de aquí
+rojo_c: Esta vez con el Imperio Romano
 
-verde_a: Después del apagón podré escapar
+rojo_c: Mi Imperio Romano...
 
-verde_a: Sin embargo, alguien tendrá que ocupar mi puesto
+rojo_c: ...
 
-verde_a: Para que todo siga como antes...
+rojo_c: Juan Alberto...
 
-set {trueEnding.verde_a} = true
+rojo_c: Ocupa mi lugar, debo ir en su busqueda
+
+rojo_c: Debo recordarle lo importante que es para mí
+
+Juan Alberto veía ternura en sus palabras
+
+Y supo que debía hacer lo correcto
+leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
-	Se repeinó un poco, encendió el ordenador
+	Mientras su corazón se iba llenando de pasión, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
-	[clear time="0.5" step="false" text="false" portraits="false" background="false" positions="false" style="false"]
+	[clear time="0.5" step="false" portraits="false" background="false" positions="false" style="false"]
 	[background arg="res://img/bgs/negro.png" fade="0.5"]
-	[wait time="2.0"]
+	[wait time="1.0"]
 	jump empezar/
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
@@ -71,6 +79,6 @@ set {trueEnding.verde_a} = true
 	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
-	[clear time="0.5" step="false" background="false"]
+	[clear time="0.25" step="false"]
 	[wait time="0.75"]
 	jump eleccionPasillo/

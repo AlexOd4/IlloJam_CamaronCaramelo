@@ -1,76 +1,71 @@
-[background arg="res://img/bgs/bg_pasilloRojo.png" fade="0.0"]
-Detrás de la puerta había un cubículo similar al de Juan Alberto.
+# musica Check// Background // poses
 
-Un tío bastante atractivo estaba de pie delante del ordenador
+[background arg="res://img/bg_cubiculo.jpg" fade="0.0"]
+Detrás de la puerta había un cubículo similar al de Juan Alberto
 
-Su buen porte estaba coronado por una sonrisa de canallita
+Un chaval a la última moda estaba de pie delante del ordenador
 
-Además, su voz mostraba chulería, una que oscilaba entre la prepotencia y el carisma innato
+Por supuesto, con ropa de OG's
+[music path="res://snd/ost/rojo_c.mp3" fade="0.0" volume="-5.0"]
 
-Con esa confianza de estar recién follao
-[music path="res://snd/ost/rojo_b.mp3" fade="0.5" volume="-15.0"]
-join rojo_b 1
+Su aspecto andrógino parecía propia de un cantante coreano
 
-rojo_b: Hey, olvidona
+# OST The Book of Love – Instrumental <South Park>
+join rojo_c 1
 
-rojo_b: ...
+rojo_c: Oh, otro Juan Alberto
 
-rojo_b: Ah, perdona, pensaba que eras otra fan
+rojo_c: ...
 
-rojo_b: Llevo unas nochecitas...
+rojo_c: Perdona, ¿has visto a Andrés?
 
-rojo_b: Que no paro
+rojo_c: Con este apagón me preocupa qué le puede haber pasado
 
-rojo_b: Que si una, que si otra...
+rojo_c: Le....
 
-rojo_b: Estoy ya seco
+rojo_c: Le quiero mucho
 
-rojo_b: Vienen solas, no tengo ni que mover el dedo
+rojo_c: ...
 
-rojo_b: Tengo unos DMs con fueguitos que pa qué...
+rojo_c: No dejaría que nada malo le pasara
 
-rojo_b: Dios mío de mi vida
+rojo_c: No soy nadie si no le tengo a mi lado...
 
-rojo_b: Como has podido comprobar, soy un tío de alto valor
+rojo_c: ...
 
-rojo_b: Una figura de éxito
+rojo_c: VENGA, TENEMOS QUE ENCONTRARLO
 
-rojo_b: Un modelo a seguir
+rojo_c: Preguntemos a otros Juan Alberto en el edificio
 
-rojo_b: Fuck, fake it till you make it
+rojo_c: Solo hago estos streams para jugar con Andrés
 
-rojo_b: No pain no gain
+rojo_c: La última vez que hablamos le dije que no quería jugar al Baldur's Gate 3
 
-rojo_b: Mira el culo panadero que me gasto
+rojo_c: Que si era en cooperativo, que si es muy largo...
 
-rojo_b: Te voy a decir que tienes que hacer para ser como yo
+rojo_c: Suena gracioso que diga eso cuando me he pasado el Red Dead Redemption 2 varias veces
 
-rojo_b: Atento, que te cuento...
+rojo_c: Se enfadó y empezó una nueva run del Crusader's King...
 
-rojo_b: Entras en una discoteca, saludas a todo el mundo y tal
+rojo_c: Esta vez con el Imperio Romano
 
-rojo_b: Ya van a pensar que tienes muchos amigos
+rojo_c: Mi Imperio Romano...
 
-rojo_b: Te pides una cachimbita, en el reservao
+rojo_c: ...
 
-rojo_b: [i]“¿Una fotillo, Juan Alberto?”[/i]
+rojo_c: Juan Alberto...
 
-rojo_b: Te haces el interesante, luego le dices que si
+rojo_c: Ocupa mi lugar, debo ir en su busqueda
 
-rojo_b: Y caen Juan Alberto, caen
+rojo_c: Debo recordarle lo importante que es para mí
 
-rojo_b: Ya te digo yo que caen
+Juan Alberto veía ternura en sus palabras
 
-rojo_b: Hermano...
-
-rojo_b: Te falta calle
-
-Juan Alberto no podía creer como un hombre podía dar tanto asco
+Y supo que debía hacer lo correcto
 leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
-	Apretaba el biceps, la mandíbula, hasta escondía su tripa
-	Encendió el ordenador
+	Mientras su corazón se iba llenando de pasión, encendió el ordenador
 	Y así comenzaba de nuevo...
 	Mañana tocaba otro día de trabajo
 	Otro día igual que el anterior
