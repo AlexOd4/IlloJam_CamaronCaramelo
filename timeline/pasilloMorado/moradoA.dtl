@@ -40,7 +40,11 @@ Los decibelios que emitía podrían afectar el rendimiento de otros trabajadores
 Juan Alberto debía acabar con su sufrimiento
 
 Y bajar el ritmo del directo...
+<<<<<<< Updated upstream
 set {trueEnding.morado_a} = true
+=======
+leave --All--
+>>>>>>> Stashed changes
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se aclaró la voz, encendió el ordenador

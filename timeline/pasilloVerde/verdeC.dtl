@@ -42,7 +42,11 @@ verde_c: O Un CamPEriTO WEnO WeNO Der MAFalDA
 verde_c: AzMe Er FaVo OmE, ZuSTiTuYEme
 
 verde_c: K Toy MaS AgobIaO kE uN ZeCrEtA en La PalMilla
+<<<<<<< Updated upstream
 set {trueEnding.verde_c} = true
+=======
+leave --All--
+>>>>>>> Stashed changes
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se puso una gorrita para atrás, encendió el ordenador
