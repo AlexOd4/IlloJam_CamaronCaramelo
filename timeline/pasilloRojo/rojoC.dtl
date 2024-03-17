@@ -1,6 +1,6 @@
 # musica Check// Background // poses
 
-[background fade="0.0"]
+[background arg="res://img/bgs/bg_pasilloRojo.png" fade="0.0"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto
 
 Un chaval a la última moda estaba de pie delante del ordenador
