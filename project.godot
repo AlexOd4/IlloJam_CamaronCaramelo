@@ -23,7 +23,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 directories/dch_directory={
 "illojuanBase": "res://styles/illojuanBase.dch",
-"verde_a": "res://styles/verde_a.dch"
+"morado_a": "res://styles/morado_a.dch",
+"morado_b": "res://styles/morado_b.dch",
+"morado_c": "res://styles/morado_c.dch",
+"rojo_a": "res://styles/rojo_a.dch",
+"rojo_b": "res://styles/rojo_b.dch",
+"rojo_c": "res://styles/rojo_c.dch",
+"verde_a": "res://styles/verde_a.dch",
+"verde_b": "res://styles/verde_b.dch",
+"verde_c": "res://styles/verde_c.dch"
 }
 directories/dtl_directory={
 "eleccionPasillo": "res://timeline/eleccionPasillo.dtl",
