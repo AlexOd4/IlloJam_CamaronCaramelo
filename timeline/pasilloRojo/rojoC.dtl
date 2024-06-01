@@ -1,5 +1,3 @@
-# musica Check// Background // poses
-[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto
 
 Un chaval a la última moda estaba de pie delante del ordenador
@@ -75,7 +73,6 @@ leave --All--
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
-	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
 	[clear time="0.25" step="false"]

@@ -1,12 +1,9 @@
 Dentro del pasillo, había tres puertas del mismo color
-cada una con una letra
 ¿Cuál deberías abrir primero, Juan Alberto?
 - Puerta A
 	# Madrileño - Lore Dump
 	jump verdeA/
 - Puerta B
-	#
 	jump verdeB/
 - Puerta C
-	#
 	jump verdeC/

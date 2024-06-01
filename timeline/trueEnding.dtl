@@ -1,9 +1,11 @@
+[music fade="0.0" volume="0.0"]
 [background arg="res://img/bgs/negro.png" fade="0.0"]
-melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
-[sound path="res://snd/sfx/sfx_Blackout.mp3" volume="0.0"]
+melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+[sound path="sfx_Blackout.mp3" volume="0.0"]
 [background arg="res://img/bgs/bg_oficina.png" fade="0.0"]
 
 # #SFX Glitch
+join illojuanBase (illojuan_base) 1 [animation="Slide In Left" wait="true"]
 
 Aló...
 
@@ -25,30 +27,43 @@ Hay que conseguir que siga haciendo directos
 
 Chavales...
 
-¿Qué le teneis que decir a Juan Alberto?
+LMDShow: ¿Qué le teneis que decir a Juan Alberto?
+leave illojuanBase
 
 # Todos los NPCs dicen a la vez 
 
-melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 [music path="res://snd/ost/trueending_final.mp3" fade="0.0" volume="0.0"]
 
 Reuniendo su fuerza de voluntad, Juan Alberto repitió “Camarón Caramelo” tantas veces como pudo
 
 “Carnalocamamero”
 
+...
+
 “Caralamcoramone“
+
+...
 
 “Canalarcoremamo"
 
+...
+
 "Carlamacamoreno"
+
+...
 
 “Camelamacarron”
 
+...
+
 Era inútil, se le trababa la lengua...
+
+...
 
 Toda esperanza estaba perdida...
 
@@ -64,20 +79,21 @@ Cuando de pronto...
 
 
 Una voz familiar sonaba a lo lejos...
+[background arg="res://img/bgs/trueback.png" fade="1.0"]
 
-Perdóname, Juan
+massi: Perdóname, Juan
 
-Luz de mis entrañas, corazón, vida mía...
+massi: Luz de mis entrañas, corazón, vida mía...
 
-Te tengo descuidao con tantos grupos de WhatsApp
+massi: Te tengo descuidao con tantos grupos de WhatsApp
 
-Actuando en La Casa de Papel, lo de Operación Triunfo, doblando intros pa series de DayZ...
+massi: Actuando en La Casa de Papel, lo de Operación Triunfo, doblando intros pa series de DayZ...
 
-De esas que te gustan a ti
+massi: De esas que te gustan a ti
 
-Mira Juan, si despiertas...
+massi: Mira Juan, si despiertas...
 
-E DEJO QUE ME DESPEINES LAS CEJAS
+massi: TE DEJO QUE ME DESPEINES LAS CEJAS
 
 El cariño en sus palabras hizo despertar algo dentro de Juan Alberto
 
@@ -101,13 +117,13 @@ No te estuve haciendo de coach en Pokemon para esto
 
 No te rindas, cumple tu función
 
-Yo de esto no entiendo mucho
+"Juan y Medio": Yo de esto no entiendo mucho
 
-Pero tú, Juan Alberto...
+"Juan y Medio": Pero tú, Juan Alberto...
 
-Tú eres un grande
+"Juan y Medio": Tú eres un grande
 
-Casi tan grande como yo
+"Juan y Medio": Casi tan grande como yo
 
 GOZ, GRANDE LOKETE
 
@@ -115,9 +131,7 @@ Vives en Matrix
 
 Toma la pildora roja
 
-SMASH HIM
-
-Haz algo con tu vida
+Alexelcapo: Haz algo con tu vida
 
 Ejercicio, empieza a caminar unos cuantos kilómetros
 
@@ -125,11 +139,11 @@ Toca hierba...
 
 O fumátela conmigo en Amsterdam
 
-ESTAMOS SIEMPRE CONTIGO JUAN ALBERTO
+Todos: ESTAMOS SIEMPRE CONTIGO JUAN ALBERTO
 
-No puede ser...
+LMDShow: No puede ser...
 
-SU GENTE ES MÁS IMPORTANTE QUE SUS DIRECTOS
+LMDShow: SU GENTE ES MÁS IMPORTANTE QUE SUS DIRECTOS
 
 Con todos reunidos, gritaron a la vez
 
@@ -140,10 +154,9 @@ CARAMELO...
 CAMARÓN CARAMELO
 
 NOOOOOOOOOOOOOOOOOOOOOO
-
-# SFX Luz fade-in
-
-# SFX Mañana, pajaritos piando
+[music fade="2.0" volume="0.0"]
+[background arg="res://img/bgs/blanco.png" fade="3.0"]
+[background arg="res://img/bgs/te.jpg" fade="3.0"]
 
 Una luminosa mañana brillaba en el cielo de Fuengirola
 

@@ -33,7 +33,6 @@ Juan Alberto vió que el editor necesitaba un descanso
 set {trueEnding.morado_b} = true
 [save slot="0"]
 Quizás, tocaba sustituirle
-leave --All-- 
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se pellizcó la camiseta, encendió el ordenador
@@ -47,7 +46,6 @@ leave --All--
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
-	Una anomalía en nuestro sistema # efecto letra glitch
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
 	[clear time="0.5" step="false" background="false" positions="false" style="false"]
