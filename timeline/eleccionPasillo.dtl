@@ -1,12 +1,13 @@
-if {trueEnding.morado_b} == true:
-	if {trueEnding.morado_c} == true:
-		if {trueEnding.rojo_a} == true:
-			if {trueEnding.rojo_b} == true:
-				if {trueEnding.rojo_c} == true:
-					if {trueEnding.verde_a} == true:
-						if {trueEnding.verde_b} == true:
-							if {trueEnding.verde_c} == true:
-								jump trueEnding/
+if {trueEnding.morado_a} == true:
+	if {trueEnding.morado_b} == true:
+		if {trueEnding.morado_c} == true:
+			if {trueEnding.rojo_a} == true:
+				if {trueEnding.rojo_b} == true:
+					if {trueEnding.rojo_c} == true:
+						if {trueEnding.verde_a} == true:
+							if {trueEnding.verde_b} == true:
+								if {trueEnding.verde_c} == true:
+									jump trueEnding/
 [background arg="res://img/bgs/negro.png" fade="0.0"]
 [background arg="res://img/bgs/bg_tresPuertas.png" fade="0.5"]
 ¿Qué pasillo escogerás, Juan Alberto?

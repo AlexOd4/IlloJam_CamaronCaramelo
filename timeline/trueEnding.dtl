@@ -30,7 +30,7 @@ LMDShow: ¿Qué le teneis que decir a Juan Alberto?
 leave illojuanBase
 
 # Todos los NPCs dicen a la vez 
-
+[background arg="res://img/bgs/todosIllos.png" fade="0.5"]
 Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
 Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
@@ -43,29 +43,31 @@ Reuniendo su fuerza de voluntad, Juan Alberto repitió “Camarón Caramelo” t
 “Carnalocamamero”
 
 ...
+[background arg="res://img/bgs/todosIllos_1.png" fade="0.5"]
 
 “Caralamcoramone“
 
 ...
+[background arg="res://img/bgs/todosIllos_2.png" fade="0.5"]
 
 “Canalarcoremamo"
 
 ...
-
+[background arg="res://img/bgs/todosIllos_3.png" fade="0.5"]
 "Carlamacamoreno"
 
 ...
-
+[background arg="res://img/bgs/todosIllos_4.png" fade="0.5"]
 “Camelamacarron”
 
 ...
-
+[background arg="res://img/bgs/todosIllos_5.png" fade="0.5"]
 Era inútil, se le trababa la lengua...
-
+[background arg="res://img/bgs/todosIllos_6.png" fade="0.5"]
 ...
 
 Toda esperanza estaba perdida...
-
+[background arg="res://img/bgs/negro.png" fade="0.0"]
 ...
 
 ...
@@ -167,4 +169,5 @@ Fue apagar el ordenador.
 
 ...
 [music path="res://snd/ost/BGM_rumbita.mp3" fade="1.0" volume="0.0"]
-do Global.dialogic_change_scene("")
+[background fade="0.5"]
+do Global.dialogic_change_scene("res://scenes/credits.tscn")

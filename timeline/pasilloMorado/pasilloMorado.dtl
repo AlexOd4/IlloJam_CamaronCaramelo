@@ -1,12 +1,12 @@
 Dentro del pasillo, había tres puertas del mismo color
 Cada una con una letra
 ¿Cuál deberías abrir primero, Juan Alberto?
-- Puerta A
+- Puerta shiny
 	# Madrileño - Lore Dump
 	jump moradoA/
-- Puerta B
+- Pureta Friki
 	# #
 	jump moradoB/
-- Puerta C
+- Puerta atras
 	# #
 	jump moradoC/
