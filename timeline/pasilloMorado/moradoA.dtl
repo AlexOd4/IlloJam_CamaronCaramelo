@@ -42,6 +42,7 @@ Juan Alberto debía acabar con su sufrimiento
 set {trueEnding.morado_a} = true
 [save slot="0"]
 Y bajar el ritmo del directo...
+leave --All--
 - Este soy yo
 	Juan Alberto decidió asumir su responsabilidad
 	Se aclaró la voz, encendió el ordenador
@@ -55,6 +56,7 @@ Y bajar el ritmo del directo...
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
+	Una anomalía en nuestro sistema
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
 	[clear time="0.5" step="false" background="false" positions="false" style="false"]

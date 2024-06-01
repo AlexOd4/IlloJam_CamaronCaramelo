@@ -1,4 +1,5 @@
 # musica Check// Background // poses
+[background arg="res://img/bgs/verde.jpg" fade="0.5"]
 Detrás de la puerta, había un cubículo similar al de Juan Alberto
 Un chavalito con pinta de macarra estaba de pie delante del ordenador
 Llevaba una gorra, con una riñonera en su costado
@@ -41,6 +42,7 @@ leave --All--
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
+	Una anomalía en nuestro sistema
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
 	[clear time="0.25" step="false"]
