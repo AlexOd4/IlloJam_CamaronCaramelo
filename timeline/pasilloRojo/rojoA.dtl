@@ -1,4 +1,4 @@
-[background arg="res://img/bgs/bg_cubiculo.png" fade="0.5"]
+[background arg="res://img/bgs/rojo.jpg" fade="0.5"]
 Detrás de la puerta había un cubículo similar al de Juan Alberto
 
 Un chaval con un sombrero hortera estaba de pie delante del ordenador
@@ -78,7 +78,7 @@ Alguien tenia que ocupar el hueco que ha dejado
 - melocamaroncaramelocamaroncara
 	[background arg="res://img/bgs/negro.png" fade="0.75"]
 	Juan Alberto despertó de una pesadilla
-	Una anomalía en nuestro sistema # efecto letra glitch
+	Una anomalía en nuestro sistema
 	Mañana, tocaba otro día de trabajo
 	Otro día, igual que el anterior...
 	[clear time="0.25" step="false"]

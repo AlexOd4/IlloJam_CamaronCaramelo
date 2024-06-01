@@ -22,7 +22,16 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"Alexelcapo": "res://img/ch/Alexelcapo.dch",
+"Anuj": "res://img/ch/Anuj.dch",
+"Juan y Medio": "res://img/ch/Juan y Medio.dch",
+"Knekro": "res://img/ch/Knekro.dch",
+"LMDShow": "res://img/ch/LMDShow.dch",
+"Skippy": "res://img/ch/Skippy.dch",
+"SpokSponha": "res://img/ch/SpokSponha.dch",
+"Todos": "res://img/ch/Todos.dch",
 "illojuanBase": "res://styles/illojuanBase.dch",
+"massi": "res://img/ch/massi.dch",
 "morado_a": "res://styles/morado_a.dch",
 "morado_b": "res://styles/morado_b.dch",
 "morado_c": "res://styles/morado_c.dch",
@@ -34,6 +43,7 @@ directories/dch_directory={
 "verde_c": "res://styles/verde_c.dch"
 }
 directories/dtl_directory={
+"credits": "res://credits.dtl",
 "eleccionPasillo": "res://timeline/eleccionPasillo.dtl",
 "empezar": "res://timeline/empezar.dtl",
 "moradoA": "res://timeline/pasilloMorado/moradoA.dtl",

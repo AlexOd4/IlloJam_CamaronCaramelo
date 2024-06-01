@@ -1,7 +1,10 @@
+[music fade="0.0" volume="0.0"]
+[background arg="res://img/bgs/negro.png" fade="0.0"]
 melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 [sound path="sfx_Blackout.mp3" volume="0.0"]
 
 # #SFX Glitch
+join illojuanBase (illojuan_base) 1 [animation="Slide In Left" wait="true"]
 
 LMDShow: Aló...
 
@@ -24,29 +27,42 @@ LMDShow: Hay que conseguir que siga haciendo directos
 LMDShow: Chavales...
 
 LMDShow: ¿Qué le teneis que decir a Juan Alberto?
+leave illojuanBase
 
 # Todos los NPCs dicen a la vez 
 
-Gente: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-Peña: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-pibes: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 [music path="res://snd/ost/trueending_final.mp3" fade="0.0" volume="0.0"]
 
 Reuniendo su fuerza de voluntad, Juan Alberto repitió “Camarón Caramelo” tantas veces como pudo
 
 “Carnalocamamero”
 
+...
+
 “Caralamcoramone“
+
+...
 
 “Canalarcoremamo"
 
+...
+
 "Carlamacamoreno"
+
+...
 
 “Camelamacarron”
 
+...
+
 Era inútil, se le trababa la lengua...
+
+...
 
 Toda esperanza estaba perdida...
 
@@ -62,20 +78,21 @@ Cuando de pronto...
 
 
 Una voz familiar sonaba a lo lejos...
+[background arg="res://img/bgs/trueback.png" fade="1.0"]
 
-Massi: Perdóname, Juan
+massi: Perdóname, Juan
 
-Massi: Luz de mis entrañas, corazón, vida mía...
+massi: Luz de mis entrañas, corazón, vida mía...
 
-Massi: Te tengo descuidao con tantos grupos de WhatsApp
+massi: Te tengo descuidao con tantos grupos de WhatsApp
 
-Massi: Actuando en La Casa de Papel, lo de Operación Triunfo, doblando intros pa series de DayZ...
+massi: Actuando en La Casa de Papel, lo de Operación Triunfo, doblando intros pa series de DayZ...
 
-Massi: De esas que te gustan a ti
+massi: De esas que te gustan a ti
 
-Massi: Mira Juan, si despiertas...
+massi: Mira Juan, si despiertas...
 
-TMassi: E DEJO QUE ME DESPEINES LAS CEJAS
+massi: TE DEJO QUE ME DESPEINES LAS CEJAS
 
 El cariño en sus palabras hizo despertar algo dentro de Juan Alberto
 
@@ -99,21 +116,19 @@ Knekro: No te estuve haciendo de coach en Pokemon para esto
 
 Knekro: No te rindas, cumple tu función
 
-JuanyMedio: Yo de esto no entiendo mucho
+"Juan y Medio": Yo de esto no entiendo mucho
 
-JuanyMedio: Pero tú, Juan Alberto...
+"Juan y Medio": Pero tú, Juan Alberto...
 
-JuanyMedio: Tú eres un grande
+"Juan y Medio": Tú eres un grande
 
-JuanyMedio: Casi tan grande como yo
+"Juan y Medio": Casi tan grande como yo
 
 Knekro: GOZ, GRANDE LOKETE
 
 Anuj: Vives en Matrix
 
 Anuj: Toma la pildora roja
-
-Amouranth: SMASH HIM
 
 Alexelcapo: Haz algo con tu vida
 
@@ -123,11 +138,11 @@ Alexelcapo: Toca hierba...
 
 Alexelcapo: O fumátela conmigo en Amsterdam
 
-TODOS: ESTAMOS SIEMPRE CONTIGO JUAN ALBERTO
+Todos: ESTAMOS SIEMPRE CONTIGO JUAN ALBERTO
 
-No puede ser...
+LMDShow: No puede ser...
 
-SU GENTE ES MÁS IMPORTANTE QUE SUS DIRECTOS
+LMDShow: SU GENTE ES MÁS IMPORTANTE QUE SUS DIRECTOS
 
 Con todos reunidos, gritaron a la vez
 
@@ -138,10 +153,9 @@ CARAMELO...
 CAMARÓN CARAMELO
 
 NOOOOOOOOOOOOOOOOOOOOOO
-
-# SFX Luz fade-in
-
-# SFX Mañana, pajaritos piando
+[music fade="2.0" volume="0.0"]
+[background arg="res://img/bgs/blanco.png" fade="3.0"]
+[background arg="res://img/bgs/te.jpg" fade="3.0"]
 
 Una luminosa mañana brillaba en el cielo de Fuengirola
 
