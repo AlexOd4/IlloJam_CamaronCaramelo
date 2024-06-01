@@ -1,0 +1,255 @@
+[gd_scene load_steps=9 format=3 uid="uid://cy2wjpkalf8yf"]
+
+[ext_resource type="Script" path="res://scripts/controlCredits.gd" id="1_ako8a"]
+[ext_resource type="Texture2D" uid="uid://dodt3ww263o8o" path="res://img/ch/juan2.png" id="3_qtre7"]
+[ext_resource type="Texture2D" uid="uid://cjdh2c878mwd3" path="res://img/ch/mesi2r.png" id="4_o28g3"]
+[ext_resource type="Texture2D" uid="uid://4qv0j02waa3q" path="res://img/ch/rojo_b/rojo_b_loco.png" id="5_dqt15"]
+[ext_resource type="Texture2D" uid="uid://m36xyd8lxqtf" path="res://img/ch/hipster.png" id="5_letq5"]
+
+[sub_resource type="Animation" id="Animation_285wo"]
+resource_name = "credits"
+length = 54.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect/RichTextLabel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 45),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-38, 973), Vector2(-38, -1734.44)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect/RichTextLabel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(49.9, 51.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(52.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"changeScene"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ColorRect/RichTextLabel/TextureRect4:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 45, 49.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1401, 1734), Vector2(1401, 1734), Vector2(1401, 842.435)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("ColorRect/RichTextLabel/TextureRect3:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 45, 49.9),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-98, 1240.3), Vector2(-98, 1240.3), Vector2(-98, 691.435)]
+}
+
+[sub_resource type="Animation" id="Animation_dij1m"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect/RichTextLabel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(492, 957)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect/RichTextLabel:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ColorRect/RichTextLabel/TextureRect4:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1401, 1734)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ColorRect/RichTextLabel/TextureRect3:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-98, 1240.3)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_x5k33"]
+_data = {
+"RESET": SubResource("Animation_dij1m"),
+"credits": SubResource("Animation_285wo")
+}
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ako8a")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 492.0
+offset_top = 957.0
+offset_right = 2488.0
+offset_bottom = 3836.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 30
+theme_override_font_sizes/bold_font_size = 30
+bbcode_enabled = true
+text = "[center]Hecho en Godot durante 48h, por...
+
+
+
+[b]Equipo:[/b]
+
+AlexOde 
+[color=gray](Programación)[/color] 
+
+Philia 
+[color=gray](Juan Albertos)[/color]
+
+JotaZé/indejcriptible  
+[color=gray](Narrativa/Producción)[/color]
+
+
+[b]OST[/b]
+
+Main Titles - Theodore Shapiro <Severance>
+
+All Gone (No Escape) - Gustavo Santaolalla <Sony>
+
+SpongeBob Music - Kevin Macleod <Youtube>
+
+Doraemon 2.0 - Hitur <Marbella Vice>
+
+Battle! Uxie/Mesprit/Azelf - Junichi Masuda <Pokemon>
+
+Blues in Velvet Room - Shoji Meguro <Persona>
+
+Victory - Two Steps From Hell <TheGrefg>
+
+Secunda - Jeremy Soule <Skyrim>
+
+Hipnotice - Notorious Big  <Barrio>
+
+The Book of Love - Peter Gabriel <South Park>
+
+Hopes and Dreams - Toby Fox <Undertale>
+
+Tema principal de Andalusian Roulette - Patis <A Pleasure Team>
+
+
+
+
+Ninguna [wave]pera[/wave] fue dañada en la realizacion del juego
+
+Ha sido un placer... 
+
+[wave][color=#70D49F]A PLEASURE TEAM[/color][/wave]
+
+
+
+[wave][b]AAAAYPS[/b][/wave]
+"
+scroll_active = false
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect/RichTextLabel"]
+layout_mode = 0
+offset_left = -69.0
+offset_right = 731.0
+offset_bottom = 800.0
+texture = ExtResource("5_letq5")
+
+[node name="TextureRect2" type="TextureRect" parent="ColorRect/RichTextLabel"]
+offset_left = 1266.0
+offset_top = 615.304
+offset_right = 2066.0
+offset_bottom = 1415.3
+texture = ExtResource("3_qtre7")
+
+[node name="TextureRect3" type="TextureRect" parent="ColorRect/RichTextLabel"]
+offset_left = -98.0
+offset_top = 1240.3
+offset_right = 702.0
+offset_bottom = 2040.3
+texture = ExtResource("4_o28g3")
+
+[node name="TextureRect4" type="TextureRect" parent="ColorRect/RichTextLabel"]
+offset_left = 1401.0
+offset_top = 1734.0
+offset_right = 1917.0
+offset_bottom = 2402.0
+texture = ExtResource("5_dqt15")
+expand_mode = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_x5k33")
+}

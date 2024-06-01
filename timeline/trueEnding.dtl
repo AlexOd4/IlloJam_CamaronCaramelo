@@ -1,42 +1,41 @@
 [music fade="0.0" volume="0.0"]
 [background arg="res://img/bgs/negro.png" fade="0.0"]
-melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
-[sound path="sfx_Blackout.mp3" volume="0.0"]
-[background arg="res://img/bgs/bg_oficina.png" fade="0.0"]
+melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
 # #SFX Glitch
-join illojuanBase (illojuan_base) 1 [animation="Slide In Left" wait="true"]
+[sound path="res://snd/sfx/sfx_Blackout.mp3" volume="1.0"]
+
 
 Aló...
 
 Presidentes
 
 Vaya vaya...
+join illojuanBase (illojuan_base) 1 [animation="Slide In Left" wait="true"]
+LMDShow: Volvemos a encontrarnos
 
-Volvemos a encontrarnos
+LMDShow: No puedes escapar de mí
 
-No puedes escapar de mí
+LMDShow: De hecho, sigo siendo una parte de ti
 
-De hecho, sigo siendo una parte de ti
+LMDShow: Parece que Juan Alberto empieza a entender que está pasando
 
-Parece que Juan Alberto empieza a entender que está pasando
+LMDShow: El apagón ha afectado a nuestro sistema
 
-El apagón ha afectado a nuestro sistema
+LMDShow: Hay que conseguir que siga haciendo directos
 
-Hay que conseguir que siga haciendo directos
-
-Chavales...
+LMDShow: Chavales...
 
 LMDShow: ¿Qué le teneis que decir a Juan Alberto?
 leave illojuanBase
 
 # Todos los NPCs dicen a la vez 
 
-Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 
-Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
+Todos: melocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaronmelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaroncaramelocamaron
 [music path="res://snd/ost/trueending_final.mp3" fade="0.0" volume="0.0"]
 
 Reuniendo su fuerza de voluntad, Juan Alberto repitió “Camarón Caramelo” tantas veces como pudo
@@ -167,4 +166,5 @@ Y lo primero que hizo, nada más despertarse...
 Fue apagar el ordenador.
 
 ...
-do 
+[music path="res://snd/ost/BGM_rumbita.mp3" fade="1.0" volume="0.0"]
+do Global.dialogic_change_scene("")
